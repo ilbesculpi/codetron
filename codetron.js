@@ -7,8 +7,8 @@ var path = require('path');
 
 global.BASE_PATH = __dirname;
 global.RECIPES_PATH = BASE_PATH + '/recipes';
-global.OUTPUT_PATH = path.dirname('./output');
-//global.OUTPUT_PATH = './output';
+//global.OUTPUT_PATH = path.dirname('./output');
+global.OUTPUT_PATH = './output';
 
 var args = process.argv.slice(2);
 var argv = require('minimist')(args);
