@@ -1,0 +1,9 @@
+[submodule "recipes/cakephp2-core"]
+	path = recipes/cakephp2-core
+	url = https://github.com/ilbesculpi/codetron-cakephp2-core.git
+[submodule "recipes/cakephp2-cms"]
+	path = recipes/cakephp2-cms
+	url = https://github.com/ilbesculpi/codetron-cakephp2-cms.git
+[submodule "recipes/cakephp2-api"]
+	path = recipes/cakephp2-api
+	url = https://github.com/ilbesculpi/codetron-cakephp2-api.git
