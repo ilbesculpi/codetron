@@ -1,6 +1,6 @@
 {
   "name": "codetron",
-  "version": "0.1.2-rc8",
+  "version": "0.1.3",
   "description": "A node tool to generate code for your apps.",
   "main": "codetron.js",
   "scripts": {
@@ -19,7 +19,9 @@
       "url" : "https://github.com/ilbesculpi/codetron"
   },
   "files": [
-      "recipes/*"
+      "*.js",
+      "recipes/*",
+      "bin"
   ],
   "license": "GPLv3.0",
   "dependencies": {
