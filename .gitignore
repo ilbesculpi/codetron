@@ -23,3 +23,6 @@ npm-debug.log
 
 # Generated files
 output
+
+# Recipes
+recipes/*
