@@ -18,14 +18,14 @@ create a json file defining your project structure:
         {
             "rid": "cakephp2-cms",
             "config": {
-                "appName": "Sample CMS"
+                "appName": "Awesome CMS"
             }
         }
     ],
     "models": [
         {
-            "name": "Product",
-            "table": "products",
+            "name": "Foo",
+            "table": "foo",
             "fields": [
                 {
                     "name": "id",
@@ -33,17 +33,16 @@ create a json file defining your project structure:
                     "type": "integer"
                 },
                 {
-                    "name": "title",
+                    "name": "field1",
                     "type": "string",
                     "required": true,
-                    "label": "Title"
+                    "label": "Field 1"
                 },
                 {
-                    "name": "description",
+                    "name": "field2",
                     "type": "string",
                     "required": false,
-                    "label": "Product Description",
-                    "control": "textarea"
+                    "label": "Field 2"
                 }
             ]
         }
