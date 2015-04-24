@@ -1,0 +1,75 @@
+{
+    "name": "Core Project",
+    "description": "Awesome Core Project.",
+    "recipes": [
+        {
+            "rid": "cakephp2-core"
+        }
+    ],
+    "models": [
+        {
+            "name": "Entity1",
+            "table": "entities1",
+            "fields": [
+                {
+                    "name": "id",
+                    "primaryKey": true,
+                    "type": "integer"
+                },
+                {
+                    "name": "field1",
+                    "type": "string",
+                    "required": true,
+                    "label": "Field 1"
+                },
+                {
+                    "name": "field2",
+                    "type": "string",
+                    "required": true,
+                    "label": "Field 2"
+                },
+                {
+                    "name": "field3",
+                    "type": "string",
+                    "required": true,
+                    "label": "Field 3"
+                }
+            ]
+        },
+        {
+            "name": "Entity2",
+            "table": "entities2",
+            "fields": [
+                {
+                    "name": "id",
+                    "primaryKey": true,
+                    "type": "integer"
+                },
+                {
+                    "name": "field1",
+                    "type": "string",
+                    "required": true,
+                    "label": "Field 1"
+                },
+                {
+                    "name": "field2",
+                    "type": "string",
+                    "required": true,
+                    "label": "Field 2"
+                },
+                {
+                    "name": "field3",
+                    "type": "string",
+                    "required": false,
+                    "label": "Field 3"
+                },
+                {
+                    "name": "field4",
+                    "type": "string",
+                    "required": false,
+                    "label": "Field 4"
+                }
+            ]
+        }
+    ]
+}
