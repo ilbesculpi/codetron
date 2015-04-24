@@ -1,12 +1,20 @@
 {
   "name": "codetron",
-  "version": "0.1.2-rc1",
+  "version": "0.1.2",
   "description": "A node tool to generate code for your apps.",
   "main": "codetron.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Ilbert Esculpi",
+  "author": {
+      "name": "Ilbert Esculpi",
+      "email": "ilbert.esculpi@gmail.com",
+      "url": "http://www.ilbesculpi.com"
+  },
+  "repository" : {
+      "type" : "git",
+      "url" : "https://github.com/ilbesculpi/codetron"
+  },
   "license": "GPLv3.0",
   "dependencies": {
     "async": "^0.9.0",
