@@ -40,7 +40,7 @@ var program = {
         // recipe config
         var config = recipe.config || {};
         
-        var recipeProgram = require('./recipes/' + recipe.rid + '/recipe');
+        var recipeProgram = require(RECIPES_PATH + '/' + recipe.rid + '/recipe');
         recipeProgram.cook(config, json, callback);
     }
     
