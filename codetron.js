@@ -3,14 +3,14 @@ var defaults = {
     CONFIG_FILE: 'project.json'
 };
 
-global.CODETRON_PATH = __dirname;
-global.RECIPES_PATH = CODETRON_PATH + '/recipes';
+global.BASE_PATH = __dirname;
+global.RECIPES_PATH = BASE_PATH + '/recipes';
 global.OUTPUT_PATH = './output';
 
 var args = process.argv.slice(2);
 var argv = require('minimist')(args);
 var async = require('async');
-var program = require(CODETRON_PATH + '/program');
+var program = require(BASE_PATH + '/program');
 
 console.log('CodeTron');
 
