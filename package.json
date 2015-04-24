@@ -1,13 +1,13 @@
 {
   "name": "codetron",
-  "version": "0.1.2-rc2",
+  "version": "0.1.2-rc3",
   "description": "A node tool to generate code for your apps.",
   "main": "codetron.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "bin": {
-      "codetron": "./codetron.js"
+      "codetron": "./bin/codetron"
   },
   "author": {
       "name": "Ilbert Esculpi",
