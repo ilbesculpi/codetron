@@ -1,0 +1,69 @@
+{
+    "name": "CakePHP3",
+    "description": "Awesome project.",
+    "recipes": [
+        {
+            "rid": "cakephp3/core"
+        }
+    ],
+    "models": [
+        {
+            "name": "Movie",
+            "table": "movies",
+            "fields": [
+                {
+                    "name": "id",
+                    "primaryKey": true,
+                    "type": "integer"
+                },
+                {
+                    "name": "title",
+                    "type": "string",
+                    "required": true,
+                    "label": "Title"
+                },
+                {
+                    "name": "description",
+                    "type": "string",
+                    "required": false,
+                    "label": "Description"
+                },
+                {
+                    "name": "picture",
+                    "type": "string",
+                    "required": false,
+                    "label": "Picture"
+                }
+            ]
+        },
+        {
+        	"name": "Actor",
+        	"table": "actors",
+        	"fields": [
+        		{
+                    "name": "id",
+                    "primaryKey": true,
+                    "type": "integer"
+                },
+                {
+                    "name": "first_name",
+                    "type": "string",
+                    "required": true,
+                    "label": "First Name"
+                },
+                {
+                    "name": "last_name",
+                    "type": "string",
+                    "required": true,
+                    "label": "Last Name"
+                },
+                {
+                    "name": "picture",
+                    "type": "string",
+                    "required": false,
+                    "label": "Picture"
+                }
+        	]
+        }
+    ]
+}
