@@ -7,3 +7,6 @@
 [submodule "recipes/cakephp2-api"]
 	path = recipes/cakephp2-api
 	url = https://github.com/ilbesculpi/codetron-cakephp2-api.git
+[submodule "recipes/cakephp3/core"]
+	path = recipes/cakephp3/core
+	url = git@github.com:ilbesculpi/codetron-cakephp3-core.git
