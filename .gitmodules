@@ -1,0 +1,3 @@
+[submodule "recipes/cakephp2"]
+	path = recipes/cakephp2
+	url = git@github.com:ilbesculpi/codetron-cakephp2.git
