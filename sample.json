@@ -3,16 +3,13 @@
     "description": "Awesome project.",
     "recipes": [
         {
-            "rid": "cakephp2-core"
+            "rid": "cakephp2/core"
         },
         {
-            "rid": "cakephp2-cms",
+            "rid": "cakephp2/cms",
             "config": {
                 "appName": "Sample CMS"
             }
-        },
-        {
-            "rid": "cakephp2-api"
         }
     ],
     "models": [
