@@ -1,6 +1,6 @@
 {
   "name": "codetron",
-  "version": "0.1.4",
+  "version": "0.2.1",
   "description": "A node tool to generate code for your apps.",
   "main": "codetron.js",
   "scripts": {

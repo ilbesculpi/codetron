@@ -13,10 +13,10 @@ create a json file defining your project structure:
     "description": "Awesome project.",
     "recipes": [
         {
-            "rid": "cakephp2-core"
+            "rid": "cakephp2/core"
         },
         {
-            "rid": "cakephp2-cms",
+            "rid": "cakephp2/cms",
             "config": {
                 "appName": "Awesome CMS"
             }
